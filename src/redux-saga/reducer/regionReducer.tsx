@@ -58,7 +58,7 @@ const FindRegion = (state: any, action: any) => {
   const { payload } = action;
   return {
     ...state,
-    reg: payload,
+    region: payload,
   };
 };
 
